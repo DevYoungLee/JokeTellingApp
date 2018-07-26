@@ -17,5 +17,4 @@ public class JokeApiTest {
         String joke = JokeApi.getJokeFromApi();
         Assert.assertFalse(TextUtils.isEmpty(joke));
     }
-
 }

@@ -1,5 +1,6 @@
 package com.udacity.gradle.builditbigger;
 
+
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
@@ -12,7 +13,7 @@ public class JokeApi {
     private static MyApi myApiService = null;
 
     public static String getJokeFromApi(){
-        if(myApiService == null) {  // Only do this once
+        if(myApiService == null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
                     .setRootUrl("http://10.0.2.2:8080/_ah/api/")
@@ -29,7 +30,9 @@ public class JokeApi {
         try {
             return myApiService.getJoke().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            e.printStackTrace();
+            return "";
+
         }
 
     }
