@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         new EndpointsAsyncTask().execute(this);
     }
 
-    class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+    public class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         private Context context;
 
         @Override
