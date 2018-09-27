@@ -8,11 +8,11 @@
  <br />
  The application has two variants. <br />
  The free variant shows banner AdMob Ads: <br />
- ![Alt text](screenshots/main_screen_free "Free Main Screen") <br />
+ ![Alt text](screenshots/main_screen_free.png "Free Main Screen") <br />
  The paid variant shows no ads: <br />
- ![Alt text](screenshots/main_screen_paid "Paid Main Screen") <br />
+ ![Alt text](screenshots/main_screen_paid.png "Paid Main Screen") <br />
  Clicking on the tell joke button shows a funny joke using an activity supplied by a custom android library: <br />
- ![Alt text](screenshots/joke_screen "Funny Joke") <br />
+ ![Alt text](screenshots/joke_screen.png "Funny Joke") <br />
  <br />
  Thank you for reading! <br />
  Any suggestions will be greatly appreciated! <br />
