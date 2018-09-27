@@ -7,7 +7,7 @@
  Paid/free flavors are included The paid flavor has no AdMob ads, and no unnecessary dependencies. <br />
  <br />
  The application has two variants. <br />
- The free variant shows banner AdMob Ads: <br />
+ The free variant shows AdMob banner ads: <br />
  ![Alt text](screenshots/main_screen_free.png "Free Main Screen") <br />
  The paid variant shows no ads: <br />
  ![Alt text](screenshots/main_screen_paid.png "Paid Main Screen") <br />
